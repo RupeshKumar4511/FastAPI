@@ -17,6 +17,8 @@ python -m venv myenv
 // It makes a folder named "myenv" the where the isolated environment is created.
 
 # activates our virtual environment on Operating System.
+./myenv/Scripts/activate
+
 From now on:
 
 python uses myenv’s Python
@@ -49,10 +51,10 @@ Pydantic is a Python library used for type validation, data validation, parsing,
 # To get the requirement.txt file 
 It contains all the libraries used for project.
 <br>
-pip freeze > requirement.txt
+pip freeze > requirements.txt
 
 # How to install the libraries written in requirement.txt file
-pip install -r requirement.txt
+pip install -r requirements.txt
 
 
 # How to stop uvicorn server : 
